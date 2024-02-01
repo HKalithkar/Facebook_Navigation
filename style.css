@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.leftside {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Logo */
+
+.logo {
+    margin: 0px 10px;
+}
+
+img[alt="Facebook"]{
+    width: 50px;
+}
+
+/* Search Bar */
+
+.searchbar {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox {
+    width: 200px;
+    background-color: lightgray;
+    margin-left: 10px;
+    border: none;
+}
+
+/* Sections */
+
+img[alt="Menu Bar"] {
+    width: 40px;
+}
+
+img[alt="Home"] {
+    background-color: ;
+}
