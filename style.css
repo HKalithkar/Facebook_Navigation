@@ -122,6 +122,13 @@ input:checked + label {
 
 /* About */
 
+.outerabout {
+    margin: 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .about {
     font-family: 'Courgette', cursive;
     font-size: 30px;
@@ -147,5 +154,11 @@ input:checked + label {
 
     .sections {
         display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .about {
+        font-size: 18px;
     }
 }
