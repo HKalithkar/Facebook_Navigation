@@ -5,15 +5,15 @@
 }
 
 .wrapper {
-    padding: 10px;
-    background-color: whitesmoke;
+    width: 100vw;
+    padding: 5px 10px;
+    background-color: rgb(173, 185, 211);
 }
 
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
 }
 
 .leftside {
@@ -25,19 +25,16 @@
 /* Logo */
 
 .logo {
+    cursor: pointer;
     margin: 0px 10px;
-}
-
-img[alt="Facebook"]{
-    width: 50px;
 }
 
 /* Search Bar */
 
 .searchbar {
-    padding: 15px;
+    padding: 13px;
     border-radius: 25px;
-    background-color: lightgray;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,17 +42,80 @@ img[alt="Facebook"]{
 
 .textbox {
     width: 200px;
-    background-color: lightgray;
+    background-color: white;
     margin-left: 10px;
     border: none;
 }
 
+/* Center  */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
 /* Sections */
 
-img[alt="Menu Bar"] {
-    width: 40px;
+.sections input {
+    display: none;
 }
 
-img[alt="Home"] {
-    background-color: ;
+label {
+    cursor: pointer;
+    font-size: 40px;
+    padding: 0px 50px;
+    border-radius: 10px;
 }
+
+label:hover {
+    background-color: whitesmoke;
+}
+
+input:checked + label {
+    background-color: rgb(237, 240, 245);
+    border-bottom: 3px solid blue;
+}
+
+/* Right Side */
+
+.rightside {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightside div {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.rightside div:hover {
+    background-color: rgb(237, 240, 245);
+}
+
+.photo > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.menubar {
+    display: none;
+}
+
+/* Media Queries */
