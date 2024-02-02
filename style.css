@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -51,7 +53,7 @@
 
 .center {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -118,4 +120,32 @@ input:checked + label {
     display: none;
 }
 
+/* About */
+
+.about {
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    height: 75vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
 /* Media Queries */
+
+@media (max-width: 1150px) {
+    .searchbar > input {
+        display: none;
+    }
+
+    .menubar {
+        display: block;
+    }
+
+    .sections {
+        display: none;
+    }
+}
